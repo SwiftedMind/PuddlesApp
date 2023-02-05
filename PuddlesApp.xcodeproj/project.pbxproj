@@ -7,18 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95477DC2298EBD6600FB7754 /* PuddlesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95477DC1298EBD6600FB7754 /* PuddlesAppApp.swift */; };
-		95477DC4298EBD6600FB7754 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95477DC3298EBD6600FB7754 /* ContentView.swift */; };
+		95477DC2298EBD6600FB7754 /* PuddlesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95477DC1298EBD6600FB7754 /* PuddlesApp.swift */; };
 		95477DC6298EBD6800FB7754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95477DC5298EBD6800FB7754 /* Assets.xcassets */; };
 		95477DC9298EBD6800FB7754 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95477DC8298EBD6800FB7754 /* Preview Assets.xcassets */; };
+		95477DD1298EBDA700FB7754 /* IdentifiedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 95477DD0298EBDA700FB7754 /* IdentifiedCollections */; };
+		95477DD4298EBDB500FB7754 /* PreviewDebugTools in Frameworks */ = {isa = PBXBuildFile; productRef = 95477DD3298EBDB500FB7754 /* PreviewDebugTools */; };
+		95477DD6298EBDB500FB7754 /* Puddles in Frameworks */ = {isa = PBXBuildFile; productRef = 95477DD5298EBDB500FB7754 /* Puddles */; };
+		95477DD9298EBDBF00FB7754 /* AsyncAlgorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 95477DD8298EBDBF00FB7754 /* AsyncAlgorithms */; };
+		95477DE4298EBE4300FB7754 /* Faker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95477DE1298EBE4300FB7754 /* Faker.swift */; };
+		95477DE5298EBE4300FB7754 /* Array+repeating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95477DE2298EBE4300FB7754 /* Array+repeating.swift */; };
+		95477DE6298EBE4300FB7754 /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95477DE3298EBE4300FB7754 /* LoadingState.swift */; };
+		95477DE9298EBE5000FB7754 /* Fakery in Frameworks */ = {isa = PBXBuildFile; productRef = 95477DE8298EBE5000FB7754 /* Fakery */; };
+		95477DEB298EBECB00FB7754 /* AppNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95477DEA298EBECB00FB7754 /* AppNavigator.swift */; };
+		95477DED298EBFA900FB7754 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95477DEC298EBFA900FB7754 /* Dashboard.swift */; };
+		95477DEF298EC1DD00FB7754 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95477DEE298EC1DD00FB7754 /* DashboardView.swift */; };
+		95477DF1298EC8FB00FB7754 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95477DF0298EC8FB00FB7754 /* Thread.swift */; };
+		95477DF3298ECB4C00FB7754 /* BundleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95477DF2298ECB4C00FB7754 /* BundleDetailView.swift */; };
+		9564567B298EE9E400F162DC /* ThreadHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9564567A298EE9E400F162DC /* ThreadHeader.swift */; };
+		9564567D298EEA4400F162DC /* BundleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9564567C298EEA4400F162DC /* BundleListView.swift */; };
+		9564567F298EED9F00F162DC /* ThreadList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9564567E298EED9F00F162DC /* ThreadList.swift */; };
+		95645681298EF21700F162DC /* ThreadDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95645680298EF21700F162DC /* ThreadDetail.swift */; };
+		95770C55298EE23000029310 /* ThreadItemView+Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95770C54298EE23000029310 /* ThreadItemView+Fact.swift */; };
+		95770C57298EE29A00029310 /* ThreadItemView+LabeledImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95770C56298EE29A00029310 /* ThreadItemView+LabeledImage.swift */; };
+		95D9866729900F0E0061C1CE /* ThreadEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D9866629900F0E0061C1CE /* ThreadEditView.swift */; };
+		95D98669299011B60061C1CE /* ThreadEditNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D98668299011B60061C1CE /* ThreadEditNavigator.swift */; };
+		95D9866B29901BC10061C1CE /* ThreadEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D9866A29901BC10061C1CE /* ThreadEdit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		95477DBE298EBD6600FB7754 /* PuddlesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuddlesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		95477DC1298EBD6600FB7754 /* PuddlesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuddlesAppApp.swift; sourceTree = "<group>"; };
-		95477DC3298EBD6600FB7754 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		95477DC1298EBD6600FB7754 /* PuddlesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuddlesApp.swift; sourceTree = "<group>"; };
 		95477DC5298EBD6800FB7754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95477DC8298EBD6800FB7754 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95477DDA298EBDE800FB7754 /* Puddles */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Puddles; path = ../Puddles; sourceTree = "<group>"; };
+		95477DE1298EBE4300FB7754 /* Faker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Faker.swift; sourceTree = "<group>"; };
+		95477DE2298EBE4300FB7754 /* Array+repeating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+repeating.swift"; sourceTree = "<group>"; };
+		95477DE3298EBE4300FB7754 /* LoadingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
+		95477DEA298EBECB00FB7754 /* AppNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigator.swift; sourceTree = "<group>"; };
+		95477DEC298EBFA900FB7754 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		95477DEE298EC1DD00FB7754 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		95477DF0298EC8FB00FB7754 /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
+		95477DF2298ECB4C00FB7754 /* BundleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleDetailView.swift; sourceTree = "<group>"; };
+		9564567A298EE9E400F162DC /* ThreadHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadHeader.swift; sourceTree = "<group>"; };
+		9564567C298EEA4400F162DC /* BundleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleListView.swift; sourceTree = "<group>"; };
+		9564567E298EED9F00F162DC /* ThreadList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadList.swift; sourceTree = "<group>"; };
+		95645680298EF21700F162DC /* ThreadDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadDetail.swift; sourceTree = "<group>"; };
+		95770C54298EE23000029310 /* ThreadItemView+Fact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ThreadItemView+Fact.swift"; sourceTree = "<group>"; };
+		95770C56298EE29A00029310 /* ThreadItemView+LabeledImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ThreadItemView+LabeledImage.swift"; sourceTree = "<group>"; };
+		95D98665298FEF8B0061C1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		95D9866629900F0E0061C1CE /* ThreadEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadEditView.swift; sourceTree = "<group>"; };
+		95D98668299011B60061C1CE /* ThreadEditNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadEditNavigator.swift; sourceTree = "<group>"; };
+		95D9866A29901BC10061C1CE /* ThreadEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadEdit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +65,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95477DE9298EBE5000FB7754 /* Fakery in Frameworks */,
+				95477DD6298EBDB500FB7754 /* Puddles in Frameworks */,
+				95477DD1298EBDA700FB7754 /* IdentifiedCollections in Frameworks */,
+				95477DD4298EBDB500FB7754 /* PreviewDebugTools in Frameworks */,
+				95477DD9298EBDBF00FB7754 /* AsyncAlgorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +79,7 @@
 		95477DB5298EBD6600FB7754 = {
 			isa = PBXGroup;
 			children = (
+				95477DDA298EBDE800FB7754 /* Puddles */,
 				95477DC0298EBD6600FB7754 /* PuddlesApp */,
 				95477DBF298EBD6600FB7754 /* Products */,
 			);
@@ -51,8 +96,13 @@
 		95477DC0298EBD6600FB7754 /* PuddlesApp */ = {
 			isa = PBXGroup;
 			children = (
-				95477DC1298EBD6600FB7754 /* PuddlesAppApp.swift */,
-				95477DC3298EBD6600FB7754 /* ContentView.swift */,
+				95D98665298FEF8B0061C1CE /* Info.plist */,
+				95477DC1298EBD6600FB7754 /* PuddlesApp.swift */,
+				95477DDE298EBE2700FB7754 /* Models */,
+				95477DDF298EBE2900FB7754 /* Managers */,
+				95477DDB298EBE1200FB7754 /* Coordinators */,
+				95477DDD298EBE1E00FB7754 /* Views */,
+				95477DE0298EBE3300FB7754 /* Helpers */,
 				95477DC5298EBD6800FB7754 /* Assets.xcassets */,
 				95477DC7298EBD6800FB7754 /* Preview Content */,
 			);
@@ -65,6 +115,74 @@
 				95477DC8298EBD6800FB7754 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95477DDB298EBE1200FB7754 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				95477DEA298EBECB00FB7754 /* AppNavigator.swift */,
+				95477DEC298EBFA900FB7754 /* Dashboard.swift */,
+				9564567E298EED9F00F162DC /* ThreadList.swift */,
+				95645680298EF21700F162DC /* ThreadDetail.swift */,
+				95D98668299011B60061C1CE /* ThreadEditNavigator.swift */,
+				95D9866A29901BC10061C1CE /* ThreadEdit.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		95477DDD298EBE1E00FB7754 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95645679298EE9DA00F162DC /* Components */,
+				95770C53298EE20900029310 /* Thread Item Views */,
+				95477DEE298EC1DD00FB7754 /* DashboardView.swift */,
+				9564567C298EEA4400F162DC /* BundleListView.swift */,
+				95477DF2298ECB4C00FB7754 /* BundleDetailView.swift */,
+				95D9866629900F0E0061C1CE /* ThreadEditView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95477DDE298EBE2700FB7754 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95477DF0298EC8FB00FB7754 /* Thread.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		95477DDF298EBE2900FB7754 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		95477DE0298EBE3300FB7754 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				95477DE2298EBE4300FB7754 /* Array+repeating.swift */,
+				95477DE1298EBE4300FB7754 /* Faker.swift */,
+				95477DE3298EBE4300FB7754 /* LoadingState.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		95645679298EE9DA00F162DC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9564567A298EE9E400F162DC /* ThreadHeader.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		95770C53298EE20900029310 /* Thread Item Views */ = {
+			isa = PBXGroup;
+			children = (
+				95770C54298EE23000029310 /* ThreadItemView+Fact.swift */,
+				95770C56298EE29A00029310 /* ThreadItemView+LabeledImage.swift */,
+			);
+			path = "Thread Item Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +201,13 @@
 			dependencies = (
 			);
 			name = PuddlesApp;
+			packageProductDependencies = (
+				95477DD0298EBDA700FB7754 /* IdentifiedCollections */,
+				95477DD3298EBDB500FB7754 /* PreviewDebugTools */,
+				95477DD5298EBDB500FB7754 /* Puddles */,
+				95477DD8298EBDBF00FB7754 /* AsyncAlgorithms */,
+				95477DE8298EBE5000FB7754 /* Fakery */,
+			);
 			productName = PuddlesApp;
 			productReference = 95477DBE298EBD6600FB7754 /* PuddlesApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +236,12 @@
 				Base,
 			);
 			mainGroup = 95477DB5298EBD6600FB7754;
+			packageReferences = (
+				95477DCF298EBDA700FB7754 /* XCRemoteSwiftPackageReference "swift-identified-collections" */,
+				95477DD2298EBDB500FB7754 /* XCRemoteSwiftPackageReference "Puddles" */,
+				95477DD7298EBDBF00FB7754 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */,
+				95477DE7298EBE5000FB7754 /* XCRemoteSwiftPackageReference "Fakery" */,
+			);
 			productRefGroup = 95477DBF298EBD6600FB7754 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +268,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95477DC4298EBD6600FB7754 /* ContentView.swift in Sources */,
-				95477DC2298EBD6600FB7754 /* PuddlesAppApp.swift in Sources */,
+				9564567B298EE9E400F162DC /* ThreadHeader.swift in Sources */,
+				95770C57298EE29A00029310 /* ThreadItemView+LabeledImage.swift in Sources */,
+				95D98669299011B60061C1CE /* ThreadEditNavigator.swift in Sources */,
+				95645681298EF21700F162DC /* ThreadDetail.swift in Sources */,
+				95477DEF298EC1DD00FB7754 /* DashboardView.swift in Sources */,
+				95477DF1298EC8FB00FB7754 /* Thread.swift in Sources */,
+				95477DE5298EBE4300FB7754 /* Array+repeating.swift in Sources */,
+				95477DE6298EBE4300FB7754 /* LoadingState.swift in Sources */,
+				95477DC2298EBD6600FB7754 /* PuddlesApp.swift in Sources */,
+				95770C55298EE23000029310 /* ThreadItemView+Fact.swift in Sources */,
+				95477DF3298ECB4C00FB7754 /* BundleDetailView.swift in Sources */,
+				9564567F298EED9F00F162DC /* ThreadList.swift in Sources */,
+				95D9866B29901BC10061C1CE /* ThreadEdit.swift in Sources */,
+				95D9866729900F0E0061C1CE /* ThreadEditView.swift in Sources */,
+				9564567D298EEA4400F162DC /* BundleListView.swift in Sources */,
+				95477DE4298EBE4300FB7754 /* Faker.swift in Sources */,
+				95477DED298EBFA900FB7754 /* Dashboard.swift in Sources */,
+				95477DEB298EBECB00FB7754 /* AppNavigator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +417,7 @@
 				DEVELOPMENT_TEAM = 7F6BJZY5B3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PuddlesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +447,7 @@
 				DEVELOPMENT_TEAM = 7F6BJZY5B3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PuddlesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +488,69 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		95477DCF298EBDA700FB7754 /* XCRemoteSwiftPackageReference "swift-identified-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-identified-collections";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		95477DD2298EBDB500FB7754 /* XCRemoteSwiftPackageReference "Puddles" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftedMind/Puddles";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		95477DD7298EBDBF00FB7754 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-async-algorithms";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		95477DE7298EBE5000FB7754 /* XCRemoteSwiftPackageReference "Fakery" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vadymmarkov/Fakery";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		95477DD0298EBDA700FB7754 /* IdentifiedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95477DCF298EBDA700FB7754 /* XCRemoteSwiftPackageReference "swift-identified-collections" */;
+			productName = IdentifiedCollections;
+		};
+		95477DD3298EBDB500FB7754 /* PreviewDebugTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95477DD2298EBDB500FB7754 /* XCRemoteSwiftPackageReference "Puddles" */;
+			productName = PreviewDebugTools;
+		};
+		95477DD5298EBDB500FB7754 /* Puddles */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95477DD2298EBDB500FB7754 /* XCRemoteSwiftPackageReference "Puddles" */;
+			productName = Puddles;
+		};
+		95477DD8298EBDBF00FB7754 /* AsyncAlgorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95477DD7298EBDBF00FB7754 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */;
+			productName = AsyncAlgorithms;
+		};
+		95477DE8298EBE5000FB7754 /* Fakery */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95477DE7298EBE5000FB7754 /* XCRemoteSwiftPackageReference "Fakery" */;
+			productName = Fakery;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 95477DB6298EBD6600FB7754 /* Project object */;
 }
